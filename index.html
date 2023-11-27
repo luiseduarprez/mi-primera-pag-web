@@ -1,38 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Eduardo Flores</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            color: #4b4949;
+            background-color: rgb(187, 219, 238);
+        }
+
+        header {
+            text-align: left;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        p {
+            color: #6c757d;
+            margin-bottom: 20px; /* Aumenta el espacio entre el título y el párrafo */
+        }
+
+        img {
+            width: 170px; /* Establece un ancho fijo para la imagen */
+            height: 170px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+
+        
+
+        section {
+            background-color: rgb(224, 231, 218); /* Color de fondo de las secciones */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Mi Página Web</h1>
+        <img src="https://images.unsplash.com/photo-1588001832198-c15cff59b078?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto de perfil de Eduardo Flores">
+        <h1>Eduardo Flores</h1>
+        <p>Growth Partner | Desarrollador | Estratega Digital</p>
     </header>
-    <nav>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Soy Eduardo Flores, un apasionado Growth Partner que fusiona la programación con el marketing. Especialista en lanzamientos y estrategia digital, mi enfoque es impulsar tu proyecto hacia el éxito. 🚀✨</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li>Desarrollo Web</li>
+            <li>Growth Marketing</li>
+            <li>Estrategia Digital</li>
+            <!-- Agrega más habilidades según sea necesario -->
         </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Bienvenido a nuestra página web. Somos una empresa dedicada a...</p>
-        </section>
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Servicio 1</li>
-                <li>Servicio 2</li>
-                <li>Servicio 3</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>Derechos de autor &copy; 2023 Mi Página Web</p>
-    </footer>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <p>He trabajado en emocionantes proyectos como [Nombre del Proyecto], donde [Breve Descripción del Proyecto y tu Contribución].</p>
+        <!-- Puedes agregar más proyectos aquí -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Estoy emocionado por compartir más sobre mi trabajo contigo! Echa un vistazo a mi <a href="#proyectos">portafolio completo</a> y no dudes en contactarme para colaboraciones o simplemente para charlar.</p>
+    </section>
 </body>
 </html>
